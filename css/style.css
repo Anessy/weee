@@ -1,0 +1,111 @@
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  color: #4f4e4d;
+}
+div {
+  display: inline-block;
+}
+.bg-main {
+  background: url(../img/main-bg.png) center no-repeat;
+  background-size: cover;
+}
+.main {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0 10%;
+  background-size: cover;
+}
+.main-logo {
+  width: 20%;
+}
+.main-link {
+  width: 74%;
+  text-align: right;
+  vertical-align: top;
+  padding-top: 1.8rem;
+}
+.main-link a {
+  display: inline;
+  font-size: 1.6rem;
+  color: #000000;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  text-decoration: none;
+}
+.main-link a:hover {
+  background: url(../img/small-line.png) no-repeat;
+  background-position-x: 10px;
+  background-position-y: 65%;
+  background-size: 100%;
+}
+.main-link img {
+  margin: 0 -3rem 0 6rem;
+}
+.bg-note {
+  width: 100%;
+  padding: 5% 20%;
+  text-align: right;
+}
+.note {
+  background: #ffffff url(../img/square.png) center no-repeat;
+  background-size: 95%;
+  width: 60%;
+  text-align: justify;
+  -webkit-transform: translateX(25%);
+          transform: translateX(25%);
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+}
+.note-title {
+  font-size: 4rem;
+  padding: 1rem 14rem 3rem 3rem;
+  background: url(../img/line-in-square.png) center no-repeat;
+  background-size: 100%;
+  background-position-x: 3rem;
+  background-position-y: 85%;
+}
+.note-text {
+  font-size: 1.4rem;
+  padding: 1rem 8rem 1rem 3rem;
+}
+.note-text p {
+  padding-bottom: 3rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.titel {
+  padding: 6% 20% ;
+}
+.titel h1 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  font-weight: 300;
+}
+.titel p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.Verpraaksaam-bg {
+  background: url(../img/bg-Verpraaksaam.png) center no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 5% 10%;
+}
+.Verpraaksaam {
+  width: 100%;
+}
+.Verpraaksaam-main {
+  -webkit-transform: translateX(25%);
+          transform: translateX(25%);
+}
+.Verpraaksaam-main h1 {
+  display: inline-block;
+  font-size: 4rem;
+  font-weight: 300;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-transform: uppercase;
+}
